@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/81ce3356a90ad8bc3339aa338f3ec8e5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1ceef883c4f934df48b27f2e35d5a92a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/11cea307d5a563177488d0e9f4c77852/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9e0bbce2a80ce1c1eb65a7ed820a0679/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/dbcc5ecdbfedf54d75d804f04bd720ca/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/abe1d24da5a8045bdc07862f7863b5e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/eaeadb64fa799ffcf8e5471a725c050e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9e3df17f9bbbe918930c5d2d7e9d0fd6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1879dc3da3b508259d191f940836a1f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/8697d9aa11b4b06fb1e32e3df76eec6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/72caeea176fba86e86b87cabae8c548a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/84f3a366f8a91e3097e13428a16d279b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9ecaea6bef415a2b861e1947951b7776/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/3081a75a1a044b2dc920687cde299f1a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5dd2cdfa82db5bd93f872d1528e82639/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5e43820d607c19e1091a3841db3b482c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/4e760628e409498ef4848d84ff967c3d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/fc327ef3f284238627e3a0bcc726bf4d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/8525e361e7a5600782637629c16cdf16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/d64943e66c2a47dacddccb9b80c9e6d6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/0a870485b7803618c8ec0a5dae8294f5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5ca7d4f0812b90423650c4819c300cb4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/c69bcc5a279a0a928780b68cf2d5a99f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/87578b851d8b9e9ac3a2a63d77be5702/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/8d164e903455c8c50c62b0d36b935717/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/4c1b9a8fd80382082ac1a8a2452b1606/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/d9f3b03783d3195a77ebdec6437affd9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/06eb8151fad06b7247d148f11797bc30/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/b5cad4aede215e1de6edbc64332649f7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/fdd58369c03b0878f0ebb08ace1fc78d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/6ad57e02e40e8394d7bf31975859a9ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/02e0824bf7dccf9f88398b0899a551e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/0051695d8ed4b44acf108bf66d005c1b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/de9665845555c04351385ad3228183bc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1388f126520d99f95c35e9df5bc8df33/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:10:5-38:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9e0bbce2a80ce1c1eb65a7ed820a0679/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9e0bbce2a80ce1c1eb65a7ed820a0679/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/dbcc5ecdbfedf54d75d804f04bd720ca/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/dbcc5ecdbfedf54d75d804f04bd720ca/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5ca7d4f0812b90423650c4819c300cb4/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5ca7d4f0812b90423650c4819c300cb4/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/c69bcc5a279a0a928780b68cf2d5a99f/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/c69bcc5a279a0a928780b68cf2d5a99f/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5ca7d4f0812b90423650c4819c300cb4/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:16:9-44
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:11:9-43
+activity#com.codepath.apps.restclienttemplate.TimelineActivity
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:17:9-63
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:17:19-51
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:18:9-37:20
+	android:label
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:21:13-44
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:19:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:25:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:27:13-36:29
+action#android.intent.action.VIEW
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:30:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:31:17-78
+	android:name
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:31:27-75
+data
+ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:33:17-35:62
+	android:host
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:34:21-55
+	android:scheme
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml:35:21-59
+uses-sdk
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/81ce3356a90ad8bc3339aa338f3ec8e5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.4.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/81ce3356a90ad8bc3339aa338f3ec8e5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1ceef883c4f934df48b27f2e35d5a92a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1ceef883c4f934df48b27f2e35d5a92a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/11cea307d5a563177488d0e9f4c77852/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/11cea307d5a563177488d0e9f4c77852/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9e0bbce2a80ce1c1eb65a7ed820a0679/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9e0bbce2a80ce1c1eb65a7ed820a0679/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/dbcc5ecdbfedf54d75d804f04bd720ca/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/dbcc5ecdbfedf54d75d804f04bd720ca/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/abe1d24da5a8045bdc07862f7863b5e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/abe1d24da5a8045bdc07862f7863b5e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/eaeadb64fa799ffcf8e5471a725c050e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/eaeadb64fa799ffcf8e5471a725c050e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9e3df17f9bbbe918930c5d2d7e9d0fd6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9e3df17f9bbbe918930c5d2d7e9d0fd6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1879dc3da3b508259d191f940836a1f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1879dc3da3b508259d191f940836a1f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/8697d9aa11b4b06fb1e32e3df76eec6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/8697d9aa11b4b06fb1e32e3df76eec6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/72caeea176fba86e86b87cabae8c548a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/72caeea176fba86e86b87cabae8c548a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/84f3a366f8a91e3097e13428a16d279b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/84f3a366f8a91e3097e13428a16d279b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9ecaea6bef415a2b861e1947951b7776/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/9ecaea6bef415a2b861e1947951b7776/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/3081a75a1a044b2dc920687cde299f1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/3081a75a1a044b2dc920687cde299f1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5dd2cdfa82db5bd93f872d1528e82639/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5dd2cdfa82db5bd93f872d1528e82639/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5e43820d607c19e1091a3841db3b482c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5e43820d607c19e1091a3841db3b482c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/4e760628e409498ef4848d84ff967c3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/4e760628e409498ef4848d84ff967c3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/fc327ef3f284238627e3a0bcc726bf4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/fc327ef3f284238627e3a0bcc726bf4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/8525e361e7a5600782637629c16cdf16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/8525e361e7a5600782637629c16cdf16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/d64943e66c2a47dacddccb9b80c9e6d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/d64943e66c2a47dacddccb9b80c9e6d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/0a870485b7803618c8ec0a5dae8294f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/0a870485b7803618c8ec0a5dae8294f5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5ca7d4f0812b90423650c4819c300cb4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/5ca7d4f0812b90423650c4819c300cb4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/c69bcc5a279a0a928780b68cf2d5a99f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/c69bcc5a279a0a928780b68cf2d5a99f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/87578b851d8b9e9ac3a2a63d77be5702/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/87578b851d8b9e9ac3a2a63d77be5702/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/8d164e903455c8c50c62b0d36b935717/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/8d164e903455c8c50c62b0d36b935717/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/4c1b9a8fd80382082ac1a8a2452b1606/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/4c1b9a8fd80382082ac1a8a2452b1606/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/d9f3b03783d3195a77ebdec6437affd9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/d9f3b03783d3195a77ebdec6437affd9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/06eb8151fad06b7247d148f11797bc30/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/06eb8151fad06b7247d148f11797bc30/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/b5cad4aede215e1de6edbc64332649f7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/b5cad4aede215e1de6edbc64332649f7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/fdd58369c03b0878f0ebb08ace1fc78d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/fdd58369c03b0878f0ebb08ace1fc78d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/6ad57e02e40e8394d7bf31975859a9ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/6ad57e02e40e8394d7bf31975859a9ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/02e0824bf7dccf9f88398b0899a551e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/02e0824bf7dccf9f88398b0899a551e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/0051695d8ed4b44acf108bf66d005c1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/0051695d8ed4b44acf108bf66d005c1b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/de9665845555c04351385ad3228183bc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/de9665845555c04351385ad3228183bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1388f126520d99f95c35e9df5bc8df33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1388f126520d99f95c35e9df5bc8df33/AndroidManifest.xml:20:5-44
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/src/main/AndroidManifest.xml
