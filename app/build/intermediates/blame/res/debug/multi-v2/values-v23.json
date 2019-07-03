@@ -4,6 +4,25 @@
             "outputFile": "/Users/alissathsueh/Desktop/Twitter/codepath-twitter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
+                    "source": "/Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/472ecb4c97aeb4137abacf0a0c8a9b71/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2646",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2791"
+                    }
+                },
+                {
                     "source": "/Users/alissathsueh/.gradle/caches/transforms-2/files-2.1/1ceef883c4f934df48b27f2e35d5a92a/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
