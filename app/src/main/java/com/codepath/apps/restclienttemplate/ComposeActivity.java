@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import com.codepath.apps.restclienttemplate.models.Tweet;
@@ -19,6 +20,7 @@ public class ComposeActivity extends AppCompatActivity {
 
     TwitterClient client;
     private EditText etTweet;
+    private Button postTweet;
 
 
 
@@ -28,13 +30,22 @@ public class ComposeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_compose);
         client = TwitterApplication.getRestClient(this);
         etTweet = (EditText) findViewById(R.id.etTweet);
+        postTweet= findViewById(R.id.tweetButton);
+
+        postTweet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String t = etTweet.getText().toString();
+                sendTweet(t);
+            }
+        });
+
     }
 
     private void sendTweet(String message) {
         client.sendTweet(message, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
-                if (statusCode == 200) {
                     try {
                         //parsing response
                         JSONObject  responseJson = new JSONObject(new String(responseBody));
@@ -42,7 +53,7 @@ public class ComposeActivity extends AppCompatActivity {
 
                         //return result to calling activity
                         Intent resultData = new Intent();
-                        resultData.putExtra("tweet", resultTweet);
+                        resultData.putExtra("tweet",resultTweet);
                         setResult(RESULT_OK, resultData);
 
                         finish();
@@ -50,7 +61,6 @@ public class ComposeActivity extends AppCompatActivity {
                         Log.e("ComposeActivity", "Error parsing response", e);
                     }
                 }
-            }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
@@ -59,8 +69,7 @@ public class ComposeActivity extends AppCompatActivity {
         });
     }
     public void postTweet(View view) {
-        String t = etTweet.getText().toString();
-        sendTweet(t);
+
     }
 
 }

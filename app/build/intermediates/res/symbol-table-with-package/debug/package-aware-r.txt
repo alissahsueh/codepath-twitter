@@ -1199,6 +1199,7 @@ id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
+id swipeContainer
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
