@@ -522,10 +522,10 @@ public final class R {
         public static final int title = 0x7f0800bd;
         public static final int title_template = 0x7f0800bf;
         public static final int topPanel = 0x7f0800c1;
-        public static final int up = 0x7f0800ce;
-        public static final int useLogo = 0x7f0800cf;
-        public static final int withText = 0x7f0800d2;
-        public static final int wrap_content = 0x7f0800d4;
+        public static final int up = 0x7f0800cf;
+        public static final int useLogo = 0x7f0800d0;
+        public static final int withText = 0x7f0800d3;
+        public static final int wrap_content = 0x7f0800d5;
     }
     public static final class integer {
         private integer() {}

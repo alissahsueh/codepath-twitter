@@ -13,12 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:maxLength="280"
         android:inputType="textPersonName"
         android:hint="What's on your mind?"
         app:layout_constraintBottom_toTopOf="@+id/tweetButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/tweetButton"
@@ -32,4 +34,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etTweet" />
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="271dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="513dp"
+        android:text="count"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tweetButton"
+        app:layout_constraintTop_toBottomOf="@+id/etTweet" />
+
 </android.support.constraint.ConstraintLayout>

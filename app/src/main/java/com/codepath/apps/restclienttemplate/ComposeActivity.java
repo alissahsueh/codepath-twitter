@@ -3,10 +3,13 @@ package com.codepath.apps.restclienttemplate;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.codepath.apps.restclienttemplate.models.Tweet;
 import com.loopj.android.http.AsyncHttpResponseHandler;
@@ -21,6 +24,7 @@ public class ComposeActivity extends AppCompatActivity {
     TwitterClient client;
     private EditText etTweet;
     private Button postTweet;
+    private TextView tweetCount;
 
 
 
@@ -39,6 +43,25 @@ public class ComposeActivity extends AppCompatActivity {
                 sendTweet(t);
             }
         });
+
+        //adding tweet counter
+        tweetCount = (TextView) findViewById(R.id.tvCount);
+
+
+        final TextWatcher txwatcher = new TextWatcher() {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+                tweetCount.setText(String.valueOf(s.length()) + "/280" );
+            }
+
+            public void afterTextChanged(Editable s) {
+            }
+        };
+
+        etTweet.addTextChangedListener(txwatcher);
 
     }
 
@@ -68,8 +91,6 @@ public class ComposeActivity extends AppCompatActivity {
             }
         });
     }
-    public void postTweet(View view) {
 
-    }
 
 }
