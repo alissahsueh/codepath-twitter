@@ -8,10 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
-
 import java.util.List;
 
 public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
@@ -22,11 +20,8 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         mTweets = tweets;
     }
 
-    //for each row, inflate the layout and cache references into ViewHolder
-
-
     @Override
-    //invoked only when to create new row
+    //invoked only when creating new row
     public ViewHolder onCreateViewHolder( ViewGroup parent, int i) {
         context = parent.getContext();
         LayoutInflater inflater = LayoutInflater.from(context);
@@ -36,9 +31,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         return viewHolder;
     }
 
-
     //bind the value based on the position of the element
-
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         //get data according to position
@@ -51,14 +44,12 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
 
     }
 
-
     @Override
     public int getItemCount() {
         return mTweets.size();
     }
 
     //create ViewHolder class
-
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public ImageView ivProfileImage;
         public TextView tvUsername;
@@ -67,7 +58,6 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
 
         public ViewHolder(View itemView) {
             super(itemView);
-
             //perform findViewById lookups
             ivProfileImage = (ImageView) itemView.findViewById(R.id.ivProfileImage);
             tvUsername = (TextView) itemView.findViewById(R.id.tvUserName);
@@ -75,9 +65,6 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
             tvTimeStamp = (TextView) itemView.findViewById(R.id.tvTimeStamp);
         }
     }
-
-    /* Within the RecyclerView.Adapter class */
-
     // Clean all elements of the recycler
     public void clear() {
         mTweets.clear();

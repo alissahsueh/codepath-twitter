@@ -10,23 +10,20 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import com.codepath.apps.restclienttemplate.models.Tweet;
 import com.loopj.android.http.AsyncHttpResponseHandler;
-
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import cz.msebera.android.httpclient.Header;
 
 public class ComposeActivity extends AppCompatActivity {
 
+    //instance variables
     TwitterClient client;
     private EditText etTweet;
     private Button postTweet;
     private TextView tweetCount;
-
-
+    private EndlessRecyclerViewScrollListener scrollListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +44,7 @@ public class ComposeActivity extends AppCompatActivity {
         //adding tweet counter
         tweetCount = (TextView) findViewById(R.id.tvCount);
 
-
+        //displays the text count
         final TextWatcher txwatcher = new TextWatcher() {
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
             }
