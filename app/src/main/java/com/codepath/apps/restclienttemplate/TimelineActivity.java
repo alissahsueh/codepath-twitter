@@ -102,7 +102,7 @@ public class TimelineActivity extends AppCompatActivity {
                 //iterate through JSON array for each entry deserialize the JSON object
                 for (int i = 0; i < response.length(); i++) {
                     //convert each object to a Tweet model
-                    //ad that tweet model to our data source
+                    //add that tweet model to our data source
                     //notify the adapter that we've added an item
                     try {
                         Tweet tweet = Tweet.fromJSON(response.getJSONObject(i));

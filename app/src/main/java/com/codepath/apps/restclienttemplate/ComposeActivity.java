@@ -23,7 +23,6 @@ public class ComposeActivity extends AppCompatActivity {
     private EditText etTweet;
     private Button postTweet;
     private TextView tweetCount;
-    private EndlessRecyclerViewScrollListener scrollListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
