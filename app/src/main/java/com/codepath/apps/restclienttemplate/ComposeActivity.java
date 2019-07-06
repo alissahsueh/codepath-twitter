@@ -65,21 +65,21 @@ public class ComposeActivity extends AppCompatActivity {
         client.sendTweet(message, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
-                    try {
-                        //parsing response
-                        JSONObject  responseJson = new JSONObject(new String(responseBody));
-                        Tweet resultTweet = Tweet.fromJSON(responseJson);
+                try {
+                    //parsing response
+                    JSONObject  responseJson = new JSONObject(new String(responseBody));
+                    Tweet resultTweet = Tweet.fromJSON(responseJson);
 
-                        //return result to calling activity
-                        Intent resultData = new Intent();
-                        resultData.putExtra("tweet",resultTweet);
-                        setResult(RESULT_OK, resultData);
+                    //return result to calling activity
+                    Intent resultData = new Intent();
+                    resultData.putExtra("tweet",resultTweet);
+                    setResult(RESULT_OK, resultData);
 
-                        finish();
-                    } catch (JSONException e) {
-                        Log.e("ComposeActivity", "Error parsing response", e);
-                    }
+                    finish();
+                } catch (JSONException e) {
+                    Log.e("ComposeActivity", "Error parsing response", e);
                 }
+            }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {

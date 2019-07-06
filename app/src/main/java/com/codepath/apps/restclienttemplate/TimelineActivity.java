@@ -90,7 +90,7 @@ public class TimelineActivity extends AppCompatActivity {
 
 
     private void populateTimeline() {
-       showProgressBar();
+        showProgressBar();
         client.getHomeTimeline(new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
